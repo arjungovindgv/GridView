@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".Mydialog">
+
+    <ImageView
+        android:src="@drawable/cyprus"
+        android:id="@+id/myDialogImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/india"
+        android:contentDescription="@string/dialog" />
+    <TextView
+        android:id="@+id/myDialogText"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:text="@string/this_flag_belongs_to"
+        android:layout_below="@id/myDialogImg"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/myDialogImg"
+        android:layout_alignEnd="@+id/myDialogImg"
+        android:text="@string/ok"
+        android:onClick="closeDialogue"
+        android:layout_below="@id/myDialogText"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

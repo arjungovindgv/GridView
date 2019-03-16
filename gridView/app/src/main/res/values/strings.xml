@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">GridView</string>
+    <string name="todo">TODO</string>
+
+    <string-array name="country_name">
+        <item>India</item>
+        <item>Bangladesh</item>
+        <item>bhutan</item>
+        <item>China</item>
+        <item>Cyprus</item>
+        <item>Israel</item>
+        <item>Japan</item>
+        <item>Pakistan</item>
+        <item>South_korea</item>
+        <item>Sri_lanka</item>
+        <item>Yemen</item>
+        <item>azerbaijan</item>
+        <item>cambodia</item>
+        <item>kazakhstan</item>
+        <item>kyrgyzstan</item>
+        <item>zimbabwe</item></string-array>
+    <string name="title_activity_my_dialog">Country Selected</string>
+    <string name="dialog">dialog</string>
+    <string name="this_flag_belongs_to">This flag belongs to</string>
+    <string name="ok">OK</string>
+</resources>
